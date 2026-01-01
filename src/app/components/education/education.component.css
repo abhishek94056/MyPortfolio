@@ -1,0 +1,36 @@
+/* ===== Education Section ===== */
+.education-section {
+  background-color: #0f172a;
+  color: #e5e7eb;
+}
+
+/* Individual item */
+.education-item {
+  background: #020617;
+  padding: 1.5rem 2rem;
+  border-left: 4px solid #38bdf8;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+}
+
+/* Degree */
+.education-item h4 {
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+}
+
+/* Institute */
+.institute {
+  color: #cbd5f5;
+  margin-bottom: 0.4rem;
+}
+
+/* Details */
+.details {
+  font-size: 0.95rem;
+  color: #94a3b8;
+}
+
+.details span {
+  color: #38bdf8;
+}

@@ -1,0 +1,58 @@
+/* ================= Contact Section ================= */
+.contact-section {
+  background-color: #020617;
+  color: #e5e7eb;
+}
+
+/* Card */
+.contact-card {
+  background: #0f172a;
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.45);
+}
+
+/* Text */
+.contact-info p {
+  color: #94a3b8;
+  font-size: 1rem;
+}
+
+/* Inputs */
+.contact-form .form-control {
+  background-color: #020617;
+  border: 1px solid #1e293b;
+  color: #e5e7eb;
+  padding: 0.75rem;
+  border-radius: 8px;
+}
+
+.contact-form .form-control::placeholder {
+  color: #64748b;
+}
+
+.contact-form .form-control:focus {
+  background-color: #020617;
+  color: #e5e7eb;
+  border-color: #38bdf8;
+  box-shadow: none;
+}
+
+/* Button */
+.btn-outline-info {
+  border-color: #38bdf8;
+  color: #38bdf8;
+  font-weight: 500;
+}
+
+.btn-outline-info:hover {
+  background-color: #38bdf8;
+  color: #020617;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+  .contact-card {
+    padding: 1.5rem;
+  }
+}

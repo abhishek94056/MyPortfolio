@@ -1,0 +1,59 @@
+<nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+  <div class="container">
+
+    <!-- Logo -->
+    <a class="navbar-brand fw-bold" href="#home">
+      Portfo<span class="brand-accent">lio.</span>
+    </a>
+
+    <!-- Mobile Toggle -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#mainNav"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu -->
+    <div class="collapse navbar-collapse" id="mainNav" #navCollapse>
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+        <li class="nav-item">
+          <a class="nav-link" href="#home" (click)="closeNavbar()">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#about" (click)="closeNavbar()">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#education" (click)="closeNavbar()">Education</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#experience" (click)="closeNavbar()">Training</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#skills" (click)="closeNavbar()">Skills</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#projects" (click)="closeNavbar()">Projects</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#certifications" (click)="closeNavbar()">Certificates</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link contact-btn" href="#contact" (click)="closeNavbar()">Contact</a>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
